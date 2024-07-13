@@ -43,6 +43,29 @@ This repository contains the backend code for a real estate application, offerin
 - Redis
 - An email service (e.g., SMTP server)
 
+```plaintext
+real-estate-backend
+├── config
+│   └── config.js
+├── controllers
+│   ├── authController.js
+│   ├── forgotPasswordController.js
+│   ├── propertyController.js
+│   ├── resetPasswordController.js
+│   └── transactionController.js
+├── models
+│   ├── User.js
+│   ├── Property.js
+│   └── Transaction.js
+├── routes
+│   ├── authRoutes.js
+│   ├── forgotPasswordRoutes.js
+│   ├── propertyRoutes.js
+│   ├── resetPasswordRoutes.js
+│   └── transactionRoutes.js
+├── app.js
+└── .env
+
 ### Installation
 
 1. Clone the repository:
@@ -57,13 +80,15 @@ JWT_SECRET=your_jwt_secret
 EMAIL_HOST=your_smtp_host
 EMAIL_PORT=your_smtp_port
 EMAIL_USER=your_email_username
-EMAIL_PASS=your_email_password```
-
+EMAIL_PASS=your_email_password
+```
 3 Install Dependencies:
-```npm install```
+```npm install
+```
 
 4.Run the server
-```npm start```
+```npm start
+```
 
 ## The End Cheeers👿
 
