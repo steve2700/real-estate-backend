@@ -49,4 +49,7 @@ This repository contains the backend code for a real estate application, offerin
    ```bash
    git clone https://github.com/yourusername/real-estate-backend.git
    cd real-estate-backend
+
+   2.Create a .env file in the root directory with the following environment variables:
+   ```
    
