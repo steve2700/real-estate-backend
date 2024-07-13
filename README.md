@@ -48,8 +48,23 @@ This repository contains the backend code for a real estate application, offerin
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/real-estate-backend.git
-   cd real-estate-backend
+   cd real-estate-backend```
 
    2.Create a .env file in the root directory with the following environment variables:
-   ```
+   ```DATABASE_URL=your_postgresql_database_url
+REDIS_URL=your_redis_url
+JWT_SECRET=your_jwt_secret
+EMAIL_HOST=your_smtp_host
+EMAIL_PORT=your_smtp_port
+EMAIL_USER=your_email_username
+EMAIL_PASS=your_email_password
+```
+3 Install Dependencies:
+```npm install```
+
+4.Run the server
+```npm start```
+
+## The End Cheeers👿
+## Expect Docker 🔜 
    
