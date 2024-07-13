@@ -74,8 +74,9 @@ real-estate-backend
    git clone https://github.com/yourusername/real-estate-backend.git
    cd real-estate-backend```
 
-   2.Create a .env file in the root directory with the following environment variables:
-   ```DATABASE_URL=your_postgresql_database_url
+### Create an .env
+```bash
+DATABASE_URL=your_postgresql_database_url
 REDIS_URL=your_redis_url
 JWT_SECRET=your_jwt_secret
 EMAIL_HOST=your_smtp_host
