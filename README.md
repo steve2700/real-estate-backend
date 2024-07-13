@@ -73,7 +73,8 @@ real-estate-backend
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/real-estate-backend.git
-   cd real-estate-backend```
+   cd real-estate-backend
+   ```
 
 ### Create an .env
 ```bash
@@ -89,8 +90,10 @@ EMAIL_PASS=your_email_password
 ```
 npm install
 ```
+
 ### Run the server 
-```npm start
+```
+npm start
 ```
 
 ## The End Cheeers👿
