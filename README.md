@@ -43,6 +43,7 @@ This repository contains the backend code for a real estate application, offerin
 - Redis
 - An email service (e.g., SMTP server)
 
+### Project Structure
 ```plaintext
 real-estate-backend
 ├── config
@@ -84,11 +85,11 @@ EMAIL_PORT=your_smtp_port
 EMAIL_USER=your_email_username
 EMAIL_PASS=your_email_password
 ```
-3 Install Dependencies:
-```npm install
+### Install Dependencies:
 ```
-
-4.Run the server
+npm install
+```
+### Run the server 
 ```npm start
 ```
 
