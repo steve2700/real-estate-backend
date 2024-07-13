@@ -57,8 +57,8 @@ JWT_SECRET=your_jwt_secret
 EMAIL_HOST=your_smtp_host
 EMAIL_PORT=your_smtp_port
 EMAIL_USER=your_email_username
-EMAIL_PASS=your_email_password
-```
+EMAIL_PASS=your_email_password```
+
 3 Install Dependencies:
 ```npm install```
 
@@ -66,5 +66,7 @@ EMAIL_PASS=your_email_password
 ```npm start```
 
 ## The End Cheeers👿
+
+
 ## Expect Docker 🔜 
    
